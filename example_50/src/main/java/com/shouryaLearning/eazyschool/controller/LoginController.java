@@ -28,7 +28,7 @@ public class LoginController {
         } else if(logout != null) {
             errorMessage = "You have been successfully logged out !!";
         } else if(register != null) {
-            errorMessage = "You registration successful. Login with registered credentials !!";
+            errorMessage = "Registration successful. Login with registered credentials !!";
         }
 
         model.addAttribute("errorMessage", errorMessage);
